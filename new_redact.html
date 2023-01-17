@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Редактор новости</title>
+</head>
+<body>
+    <div>
+        <select id="news_select">
+
+        </select>
+    </div>
+    <div>
+        <input id="redact_button" type="button" value="Редактировать" onclick="get_new()">
+    </div>
+    <div>
+        <h4>Заголовок:</h4>
+        <input id="header_redact" type="text">
+    </div>
+    <div>
+        <h4>Текст:</h4>
+        <input id="text_redact" type="text">
+    </div>
+    <div>
+        <input type="button" value="Принять правки" id="send_button" onclick="send_new()">
+    </div>
+    <div>
+        <h4>Теги:</h4>
+        <select id="tag_select">
+
+        </select>
+        <input type="button" id="tag_add" value="Добавить тег" onclick="add_tag()">
+        <input type="button" id="tag_remove" value="Удалить тег" onclick="remove_tag()">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/new_redact.js"></script>
+</body>
+</html>

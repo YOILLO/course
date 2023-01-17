@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Аутентификация</title>
+</head>
+<body>
+    <div id="main-div">
+        <div>
+            <label for="username-textinput">Имя пользователя:</label>
+            <input id="username-textinput" type="text" name="usr" maxlength="20" autocomplete="on" placeholder="Имя пользователя">
+        </div>
+        <div>
+            <label for="password-textinput">Пароль:</label>
+            <input id="password-textinput" type="password" name="passwd" maxlength="20" autocomplete="on" placeholder="Пароль">
+        </div>
+        <div>
+            <input id="send_button" type="button" value="Войти">
+            <input id="register_button" type="button" value="Зарегестрироваться">
+        </div>
+        <div>
+            <p id="error_msg"></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Новости</title>
+</head>
+<body>
+    <div id="header">
+        <input id="category_all" type="button" value="Все">
+        <input id="category_1" type="button" value="">
+        <input id="category_2" type="button" value="">
+        <input id="category_3" type="button" value="">
+        <input id="category_4" type="button" value="">
+    </div>
+    <div>
+        <input type="button" value="Вернутся к входу в аккаунт" onclick="window.location.replace('http://localhost/')">
+    </div>
+    <div id="redact">
+        <input id="redact_button" type="button" value="Редактирование" onclick="window.location.replace('http://localhost/new_redact.html')">
+    </div>
+    <div id="new">
+        <table id="news_table">
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/new_list.js"></script>
+</body>
+</html>
